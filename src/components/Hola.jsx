@@ -1,10 +1,11 @@
-
+import "./Hola.css"
 
 const Hola = () => {
     return (
-        <div class="center">
+        <div id="parrafohola" class="center">
             <h1>Hola!</h1>
-            <p>Soy dante, ingeniero en sistemas.</p>
+            <h3>Soy Dante  Verdi</h3>
+            <p>Ingeniero en sistemas.</p>
         </div>
     )
 }
