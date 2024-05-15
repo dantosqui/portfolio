@@ -5,5 +5,21 @@
 }
 
 #cssanimado{
-    
+        animation-name: animacionlinda;
+        animation-duration: 10s;
+        animation-iteration-count: infinite;
+}
+
+@keyframes animacionlinda{
+    0% {color:red}
+    10% {color:rgb(255, 174, 0)}
+    20% {color:rgb(94, 255, 0)}
+    30% {color:rgb(0, 255, 234)}
+    40% {color:rgb(25, 0, 255)}
+    50% {color:rgb(204, 0, 255)}
+    60% {color:rgb(255, 0, 85)}
+    70% {color:red}
+    80% {color:rgb(0, 247, 255)}
+    90% {color:rgb(255, 136, 0)}
+    100% {color:red}
 }

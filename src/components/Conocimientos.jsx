@@ -12,7 +12,7 @@ const Conocimientos = () => {
             <div id="cards">
                 
                 <VerticalCard icon={img} text="Desarrollo de APIs"></VerticalCard>
-                <VerticalCard id="cssanimado" icon="https://www.svgrepo.com/show/102011/css-3.svg" text="CSS"></VerticalCard>
+                <div id="cssanimado"><VerticalCard icon="https://www.svgrepo.com/show/102011/css-3.svg" text="CSS"></VerticalCard></div>
                 <VerticalCard icon="https://static.thenounproject.com/png/1760714-200.png" text="Aplicaciones Web"></VerticalCard>
                 <VerticalCard icon="https://static.thenounproject.com/png/4978350-200.png" text="Infraestructura de Internet"></VerticalCard>
 
