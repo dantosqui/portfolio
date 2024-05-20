@@ -1,6 +1,6 @@
 import "./Quote.css"
 
-const Quote = () =>{
+const Quote = (props) =>{
     return(
 
         <>
@@ -11,7 +11,7 @@ const Quote = () =>{
                 </div>
                 <div class="text">
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae odit adipisci rerum mollitia! Eveniet, consectetur sunt consequatur reiciendis sequi id ipsa harum atque quisquam modi iusto ex reprehenderit, quas possimus.
+                        {props.text}
                     </p>
                 </div>
             </div>

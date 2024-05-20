@@ -1,6 +1,7 @@
 .quote{
-    width: 40vw;
+    width: 20vw;
     margin-top: 5vh;
+    margin: 5vh 6vw 0vh 0vh;
 }
 
 .quoteicon{
@@ -11,3 +12,4 @@
     font-size: large;
     
     }
+
