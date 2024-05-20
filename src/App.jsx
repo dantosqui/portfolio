@@ -4,6 +4,7 @@ import SobreMi from './components/Sobremi.jsx'
 import Conocimientos from './components/Conocimientos.jsx'
 import Hola from './components/Hola.jsx'
 import Experiencia from './components/experiencia.jsx'
+import Recomendaciones from './components/Recomendaciones.jsx'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <br />
     <br />
     <Experiencia></Experiencia>
+    <Recomendaciones></Recomendaciones>
 
     {/* <Sobremi></Sobremi>
     <Conocimientos></Conocimientos>

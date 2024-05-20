@@ -1,17 +1,41 @@
 img{
-    width: inherit;
-    height: inherit;
+    width:100%;
+    height: 100%;
 }
 
 .horizontalCard{
     display: flex;
-    width: 65vw;
+    width: 55vw;
     border: 2px solid black;
+    margin-top:5vh
 }
 
-
+.content{
+    width:70%;
+    padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+.content p,h4{
+    margin:0
+}
 .icon{
     height: inherit;
-    width: 70%;
+    width: 15%;
     border-right: 1px solid black;
+}
+.titule{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.titule h4 {
+    justify-self: center;
+    font-size: x-large;
+}
+.cardtimespan{
+    text-align: left;
+    
+    opacity: 0.6;
 }

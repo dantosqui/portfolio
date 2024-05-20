@@ -12,8 +12,10 @@ const HorizontalCard = (props) => {
             </div>
 
             <div class="content">
-                <h3>{props.title}</h3>
-                <span class="cardtimespan">{props.subtitle}</span>
+                <div class="titule">
+                        <h4>{props.title}</h4> 
+                        <span class="cardtimespan">{props.subtitle}</span> 
+                </div>
                 <p>{props.text}</p>
             </div>
 
