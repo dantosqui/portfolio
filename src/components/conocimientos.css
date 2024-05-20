@@ -23,3 +23,21 @@
     90% {color:rgb(255, 136, 0)}
     100% {color:red}
 }
+
+#cssanimado img {
+    animation-name:flotar;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flotar {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }

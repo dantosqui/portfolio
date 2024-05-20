@@ -3,7 +3,7 @@ import './App.css';
 import SobreMi from './components/Sobremi.jsx'
 import Conocimientos from './components/Conocimientos.jsx'
 import Hola from './components/Hola.jsx'
-
+import Experiencia from './components/Experiencia.jsx'
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
     {/*a partir de aca todos son igualitos en importancia y tamaño*/}
     <SobreMi></SobreMi>
     <Conocimientos></Conocimientos>
+    <Experiencia></Experiencia>
 
     {/* <Sobremi></Sobremi>
     <Conocimientos></Conocimientos>
