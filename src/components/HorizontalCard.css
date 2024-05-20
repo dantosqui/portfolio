@@ -1,0 +1,17 @@
+img{
+    width: inherit;
+    height: inherit;
+}
+
+.horizontalCard{
+    display: flex;
+    width: 65vw;
+    border: 2px solid black;
+}
+
+
+.icon{
+    height: inherit;
+    width: 70%;
+    border-right: 1px solid black;
+}
