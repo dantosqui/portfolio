@@ -1,6 +1,6 @@
 import "./experiencia.css"
-import HorizontalCard from "./Horizontalcard.jsx"
-import hol from '../images/hangoverlogo.png'
+import HorizontalCard from "../horizontalcard/Horizontalcard.jsx"
+import hol from '../../images/hangoverlogo.png'
 //importante: estoy aware de que experiencia.jsx esta en minuscula asi como Horizontalcard.jsx PERO el visual studio me tira un error por alguna razon si esta escrito en mayuscula
 const Experiencia = () => {
     return(

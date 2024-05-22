@@ -1,0 +1,23 @@
+#formulario{
+    width: 40vw;
+}
+form{
+
+    padding: 2vh 0px 2vh 0vh;
+    background-color: rgb(255, 241, 196) ;
+    border-radius: 10px 10px 0px 0px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3vh;
+}
+.inpu{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+/*esto es muy mal codigo porque esta repetido*/
+#titulo{
+    margin-top: 20px;
+}

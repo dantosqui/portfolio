@@ -1,6 +1,6 @@
 import "./conocimientos.css"
-import VerticalCard from "./VerticalCard.jsx"
-import img from '../images/apicon.jpg'
+import VerticalCard from "../verticalcard/VerticalCard.jsx"
+import img from '../../images/apicon.jpg'
 
 const Conocimientos = () => {
 
