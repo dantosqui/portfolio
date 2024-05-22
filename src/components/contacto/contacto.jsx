@@ -3,10 +3,11 @@ import "./contacto.css";
 const Contacto = () => {
   return (
     <>
+    <div id="contacto">
         <h3 class="center" id="titulo">Contacto</h3>
       <h4>Sigamos en contacto!</h4>
       <p>
-        Contactame mediante <b>danosqui20@gmail.com</b> o llenando el
+        Contactame mediante <a href="mailto:danosqui20@gmail.com"><b>danosqui20@gmail.com</b></a> o llenando el
         formulario. ¡Gracias por visitar!
       </p>
 
@@ -28,6 +29,7 @@ const Contacto = () => {
           </div>
           <button type="submit">Send</button>
         </form>
+      </div>
       </div>
     </>
   );

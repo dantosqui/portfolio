@@ -1,0 +1,29 @@
+ul{
+    list-style-type: none;
+    padding:0px;
+    display:flex;
+    gap:1vw;
+    justify-content: space-evenly;
+    margin:0px;
+}
+a{
+    text-align: center;
+    height: fit-content;
+}
+#navbar{
+    position:sticky;
+    top:0;
+    z-index: 1;
+    padding:2vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background:white;
+    box-shadow: 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+   
+
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+

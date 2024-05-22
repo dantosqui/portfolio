@@ -7,32 +7,29 @@ import Experiencia from './components/experiencia/Experiencia.jsx'
 import Recomendaciones from './components/recomendaciones/Recomendaciones.jsx'
 import Educacion from './components/educacion/educacion.jsx';
 import Contacto from './components/contacto/contacto.jsx'
+import BarraNav from './components/barraNav/BarraNav.jsx'
 
 function App() {
   return (
     <>
 
-    <header>
-      
-    </header>
+    
+    <BarraNav></BarraNav>
+    
 
     <div class="center">
     <Hola></Hola>
-
-    {/*a partir de aca todos son igualitos en importancia y tamaño*/}
     <SobreMi></SobreMi>
-    <Conocimientos></Conocimientos> {/*si quiero sacar los br tengo q cambiar verticalcard*/}
-    <br />
-    <br />
+    <Conocimientos></Conocimientos> 
     <Experiencia></Experiencia>
     <Recomendaciones></Recomendaciones>
     <Educacion></Educacion>
     <Contacto></Contacto>
+    </div>
 
     <footer>
       
     </footer>
-    </div>
     {/*creditos a vecteezy.com por una imagen*/}
     </>
   );

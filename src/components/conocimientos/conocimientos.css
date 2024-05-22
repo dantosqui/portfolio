@@ -28,6 +28,7 @@
 #cssanimado img {
     animation-name:flotar;
     animation-duration:5s;
+    z-index: 0;
     animation-iteration-count: infinite;
 }
 
