@@ -1,6 +1,7 @@
 #excepcionalosotrosh3porquequedafeosiesmuygrande{
     font-size: large;
 }
+/* no me gusta usar px ni margin pero por alguna razon metafisica al quitar esto de aca abajo la pagina se rompe mucho mas de lo que deberia*/
 p,h3{
     margin:2px
 }

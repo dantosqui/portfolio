@@ -8,6 +8,7 @@ import Recomendaciones from './components/recomendaciones/Recomendaciones.jsx'
 import Educacion from './components/educacion/educacion.jsx';
 import Contacto from './components/contacto/contacto.jsx'
 import BarraNav from './components/barraNav/BarraNav.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
     <BarraNav></BarraNav>
     
 
-    <div class="center">
+    <div id ="todowrapper" class="center">
     <Hola></Hola>
     <SobreMi></SobreMi>
     <Conocimientos></Conocimientos> 
@@ -28,7 +29,7 @@ function App() {
     </div>
 
     <footer>
-      
+      <Footer></Footer>
     </footer>
     {/*creditos a vecteezy.com por una imagen*/}
     </>

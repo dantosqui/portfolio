@@ -1,14 +1,20 @@
 #cards{
     margin-top: 4vh;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 15vw;
+
 }
 
 #cssanimado{
         animation-name: animacionlinda;
         animation-duration: 10s;
         animation-iteration-count: infinite;
+}
+
+
+.squish{
+width: 60vw;
 }
 
 @keyframes animacionlinda{

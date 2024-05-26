@@ -9,7 +9,7 @@ const Conocimientos = () => {
         <div id="conocimientos" class="center">
             <h3>Conocimientos</h3>
             <br></br>
-            <div id="cards">
+            <div id="cards" class ="squish">
                 
                 <VerticalCard icon={img} text="Desarrollo de APIs"></VerticalCard>
                 <div id="cssanimado"><VerticalCard icon="https://www.svgrepo.com/show/102011/css-3.svg" text="CSS"></VerticalCard></div>

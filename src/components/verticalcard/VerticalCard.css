@@ -1,6 +1,6 @@
 .verticalcard{
-    width: 6.5vw;
-    height: 6.5vw;
+    width: fit-content;
+    height: fit-content;
 
     font-weight: bold;
     display: flex;
@@ -10,6 +10,7 @@
     
 }
 .verticalcard img {
-    width: inherit;
+    width: 6.5vw;
+    height: 6.5vw;
 }   
 
