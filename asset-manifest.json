@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.073916b8.css",
+    "main.js": "/portfolio/static/js/main.46398219.js",
+    "static/js/453.ad6ca161.chunk.js": "/portfolio/static/js/453.ad6ca161.chunk.js",
+    "static/media/apicon.jpg": "/portfolio/static/media/apicon.e8de5e6e9e03a9692650.jpg",
+    "static/media/hangoverlogo.png": "/portfolio/static/media/hangoverlogo.4edd8f46df9b73d939ac.png",
+    "index.html": "/portfolio/index.html",
+    "main.073916b8.css.map": "/portfolio/static/css/main.073916b8.css.map",
+    "main.46398219.js.map": "/portfolio/static/js/main.46398219.js.map",
+    "453.ad6ca161.chunk.js.map": "/portfolio/static/js/453.ad6ca161.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073916b8.css",
+    "static/js/main.46398219.js"
+  ]
+}
