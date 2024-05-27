@@ -5,7 +5,7 @@ const Recomendaciones = () => {
 return(
 <>
     <div id="recomendaciones">
-    <h3 class="center" style={{marginTop:'20px'}} >Recomendaciones</h3>
+    <h3 class="center header" style={{marginTop:'20px'}} >Recomendaciones</h3>
     <div class="quotes"> 
         <Quote text="Para quien corresponda:
 Es un placer recomendar a Dante, quien demostró ser un empleado excepcional durante su tiempo trabajando conmigo. Dante se destacó por su dedicación, ética laboral y habilidades sobresalientes para resolver problemas de manera eficiente. Es una persona confiable, responsable y comprometida con su trabajo.

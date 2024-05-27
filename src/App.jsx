@@ -12,7 +12,7 @@ import Footer from './components/Footer/Footer.jsx'
 
 function App() {
   return (
-    <>
+    <div id="wrappertodo">
 
     
     <BarraNav></BarraNav>
@@ -32,7 +32,7 @@ function App() {
       <Footer></Footer>
     </footer>
     {/*creditos a vecteezy.com por una imagen*/}
-    </>
+    </div>
   );
 }
 

@@ -6,7 +6,7 @@ const barraNav = () => {
     
     <nav id="navbar">
         <div id="home" href="#top">
-            <h3>Dante Verdi</h3>
+            <h3 class="header">Dante Verdi</h3>
         </div>
         <ul>
             

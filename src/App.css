@@ -1,5 +1,17 @@
-h3{
-  font-size: xx-large;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+#wrappertodo{
+  font-family: "Ubuntu", sans-serif;
+}
+
+.header{
+  font-size: 1.9em;
+  padding-top:1vh
+}
+.header+{
+  font-size: 2vw;
+}
+.parrafo{
+  font-size: 1em;
 }
 
 .App {
@@ -50,4 +62,13 @@ h3{
 
 #todowrapper div.marginbotom{
   margin-bottom: 5px;
+}
+
+
+:target {
+  scroll-margin-top: 80px; /* Adjust this value to match your navbar height + desired spacing */
+}
+
+html {
+  scroll-behavior: smooth;
 }

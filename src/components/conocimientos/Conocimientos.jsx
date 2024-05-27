@@ -7,7 +7,7 @@ const Conocimientos = () => {
     return(
         <>
         <div id="conocimientos" class="center">
-            <h3>Conocimientos</h3>
+            <h3 class="header">Conocimientos</h3>
             <br></br>
             <div id="cards" class ="squish">
                 
