@@ -5,8 +5,10 @@ const barraNav = () => {
     <>
     
     <nav id="navbar">
-        <div id="home" href="#top">
+        <div id="home">
+            <a href="top">
             <h3 class="header">Dante Verdi</h3>
+            </a>
         </div>
         <ul>
             

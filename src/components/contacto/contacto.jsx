@@ -7,15 +7,16 @@ const Contacto = () => {
         <h3 class="center header" id="titulo">
           Contacto
         </h3>
+        <br />
         <h4>Sigamos en contacto!</h4>
         <p>
           Contactame mediante{" "}
           <a href="mailto:danosqui20@gmail.com">
-            <b>danosqui20@gmail.com</b>
+            <b class="mailto">danosqui20@gmail.com</b>
           </a>{" "}
           o llenando el formulario. ¡Gracias por visitar!
         </p>
-
+<br />
         <div id="formulario">
           <form action="https://formspree.io/f/mbjneoov" method="POST">
             <div class="inpu">
@@ -24,9 +25,9 @@ const Contacto = () => {
             </div>
             <div class="inpu">
               <label for="mensaje">Tu mensaje:</label>
-              <textarea id="mensaje" name="message"></textarea>
+              <input type="text" id="mensaje" name="message"></input>
             </div>
-            <button type="submit">Send</button>
+            <button type="submit">Enviar</button>
           </form>
         </div>
       </div>

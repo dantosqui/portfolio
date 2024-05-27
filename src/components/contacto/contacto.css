@@ -1,11 +1,10 @@
 #formulario{
     width: 55vw;
 }
-form{
-
+form {
     padding: 2vh 0px 2vh 0vh;
-    background-color: rgb(255, 241, 196) ;
-    border-radius: 10px 10px 0px 0px; 
+    background: linear-gradient(to bottom, rgb(226, 243, 250), aliceblue);
+    border-radius: 20px 20px 0px 0px; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,11 +12,51 @@ form{
 }
 .inpu{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     width: 60%;
+}
+label{
+    font-size: 1rem;
+}
+input{
+    font-size: 0.8rem;
+    height: 3.5vh;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid black;
+    transition: all 0.2s ease-in-out;
+    font-size: inherit;
+}
+input:focus{
+    outline: 0px;
+    border-bottom: 3px solid rgb(135, 199, 255);
+
+}
+
+button{
+    width: 30%;
+    height: 4vh;
+    border-radius: 40px;
+    transition: all 0.2s ease-in-out;
+    background-color:rgb(255, 255, 255);
+    border: 0;
+    cursor:pointer;
+}
+button:hover{
+    box-shadow: 0 0 20px 5px rgb(135, 199, 255);
+    background-color: rgb(195, 225, 252);
+}
+button:active{
+    background-color: rgb(88, 177, 255);
+    box-shadow: 0 0 20px 5px rgb(88, 177, 255);
+}
+
+.mailto{
+    color:rgb(0, 0, 143)
 }
 
 /*esto es muy mal codigo porque esta repetido*/
 #titulo{
     margin-top: 20px;
 }
+

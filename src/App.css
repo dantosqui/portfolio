@@ -4,14 +4,14 @@
 }
 
 .header{
-  font-size: 1.9em;
+  font-size: 1.9rem;
   padding-top:1vh
 }
 .header+{
   font-size: 2vw;
 }
 .parrafo{
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .App {
